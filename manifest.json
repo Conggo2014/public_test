@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "CSV Form Filler",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
